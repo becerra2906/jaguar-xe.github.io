@@ -1,13 +1,16 @@
 html,body{
     height: 100%;
+    background-image: url("../images/jaguar-xe.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family:  Roboto;
 }
 .container{
     width: 100%;
     height: 100%;
-    background-image: url("../images/jaguar-xe.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+   opacity: initial;
 }
 
 .text_box{
@@ -17,7 +20,7 @@ html,body{
     border-radius: 10px;
     opacity: 0.75;
     padding: 9px;
-    font-family:  Roboto;
+    
     top: 25px;
     left: 25px;
     margin: 5px;
@@ -26,7 +29,7 @@ html,body{
     height: 30px;
     width:150px;
     background-color: #DB3030;
-    opacity: initial;
+    opacity: 1;
     text-align: center;
     padding: 0;
 }
